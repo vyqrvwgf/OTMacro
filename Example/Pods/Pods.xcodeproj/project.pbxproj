@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		16D993F4B0E7681C6E00AC407C982304 /* OTMacro-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CBF185E0C78FDBA7D5F83029D02DCDC /* OTMacro-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16D993F4B0E7681C6E00AC407C982304 /* OTMacro-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D27E5BA7CFDE384E02D8B959B95F5A3 /* OTMacro-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2CC8876C7FDBF29D0FE354AEF348796A /* Pods-OTMacro_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0AD005A672F19F001AC461531618F65 /* Pods-OTMacro_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		40D5C89560DF8B9DEDD7D394B5F3CAB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		715D7B267E67B0D8D4ABCCAC52CE15F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		7AF521A9B45213A27A6E29BD97F6936A /* Pods-OTMacro_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 800F18DC50E67513BDE65DF8EBE174FE /* Pods-OTMacro_Example-dummy.m */; };
-		B7DF9E400B4B05136223919C72959F76 /* OTMacro-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1098ADC218E363EC8E42A5A402FD0DF9 /* OTMacro-dummy.m */; };
+		8AA972B2F998DF19B7ABDD50DFDB7BB1 /* OTMacro-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 309DCC7CA8A39A694690EF60C7A5C11E /* OTMacro-dummy.m */; };
+		8D48271E7601FFE11A1D0CCC54754633 /* OTMacro.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD978A38B8FC6134913C4A19815086D /* OTMacro.swift */; };
 		D0F51C2F2B9600D90093722912927124 /* Pods-OTMacro_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC213730EE99E53689C0E1CB0C0E7D67 /* Pods-OTMacro_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D4591255158101E0A23121AA40B4F5FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		E8D59418DCBD1D84DC72FC4AD64E53F0 /* Pods-OTMacro_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9A24DA73D7BB154D0E68D999E71BE9E /* Pods-OTMacro_Tests-dummy.m */; };
-		EF036F83792BA7AAC9BD644545A3BA28 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBD6C36F70568E4B798B32D9EAB0566 /* ReplaceMe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,15 +31,13 @@
 
 /* Begin PBXFileReference section */
 		007ED1592DC70DE411C0D0A99BDC222E /* Pods-OTMacro_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OTMacro_Tests.modulemap"; sourceTree = "<group>"; };
-		02D4B49A412C530CDE255D0B21C36EE6 /* OTMacro.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OTMacro.xcconfig; sourceTree = "<group>"; };
-		1098ADC218E363EC8E42A5A402FD0DF9 /* OTMacro-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OTMacro-dummy.m"; sourceTree = "<group>"; };
+		203DDD147976E32AABF08924F6661F26 /* OTMacro.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OTMacro.modulemap; sourceTree = "<group>"; };
 		2F59A8027384AF9A630E5BDF0B0D8519 /* Pods_OTMacro_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OTMacro_Example.framework; path = "Pods-OTMacro_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		309DCC7CA8A39A694690EF60C7A5C11E /* OTMacro-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OTMacro-dummy.m"; sourceTree = "<group>"; };
 		32BF803B4954BE95F321F9389F0E9D21 /* Pods-OTMacro_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OTMacro_Example-resources.sh"; sourceTree = "<group>"; };
 		3E7158EE8FFC06E4E15612DC79C5FD10 /* Pods-OTMacro_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OTMacro_Tests-resources.sh"; sourceTree = "<group>"; };
-		4CBF185E0C78FDBA7D5F83029D02DCDC /* OTMacro-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTMacro-umbrella.h"; sourceTree = "<group>"; };
+		4CC829C3E9785B57C34185DA9564E37D /* OTMacro-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTMacro-prefix.pch"; sourceTree = "<group>"; };
 		507B121BFEFE42E416E1E0AE24F1663D /* OTMacro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OTMacro.framework; path = OTMacro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		55619015956FAD8B53C482CA530026C1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		57532773513EDD3A3339790D8BDB112C /* OTMacro-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTMacro-prefix.pch"; sourceTree = "<group>"; };
 		65D628C523DC54FA90F1B6D5DA7B1560 /* Pods-OTMacro_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OTMacro_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		706569765B880AA8741F89B93EDB1FA8 /* Pods_OTMacro_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OTMacro_Tests.framework; path = "Pods-OTMacro_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,11 +45,13 @@
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9480FB6CDAE07FF56F525C34A20B5D3B /* Pods-OTMacro_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OTMacro_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9C928F22AE5CF3C6E25F4D0B7EB00C29 /* Pods-OTMacro_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OTMacro_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D27E5BA7CFDE384E02D8B959B95F5A3 /* OTMacro-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTMacro-umbrella.h"; sourceTree = "<group>"; };
 		9F01EB949E6543B9E09545A3489F2242 /* Pods-OTMacro_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OTMacro_Example.modulemap"; sourceTree = "<group>"; };
-		A38BD544D78D98691A5F9616C1AFC4EC /* OTMacro.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OTMacro.modulemap; sourceTree = "<group>"; };
+		A2D07732B1E69536E86E7EF2249FE16A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABD978A38B8FC6134913C4A19815086D /* OTMacro.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OTMacro.swift; path = OTMacro/Classes/OTMacro.swift; sourceTree = "<group>"; };
 		AC203C2FE6F48E1409220F1DDC994CFF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0AD005A672F19F001AC461531618F65 /* Pods-OTMacro_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OTMacro_Tests-umbrella.h"; sourceTree = "<group>"; };
-		BFBD6C36F70568E4B798B32D9EAB0566 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = OTMacro/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		BB1281C0FB24D1D9309F0A6F522625AF /* OTMacro.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OTMacro.xcconfig; sourceTree = "<group>"; };
 		C08BDD97F824C52C6A05B4D399AD405E /* Pods-OTMacro_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OTMacro_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C1D3E38457D956FB1EF32583676AC99A /* Pods-OTMacro_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OTMacro_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		D209388ADE7062DCD9B7C3167D5B075D /* Pods-OTMacro_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OTMacro_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -95,19 +95,9 @@
 		1424B922E3EF837BACB52932CD8E498C /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				15EE20BEF0ECC7D49D86A653493845B6 /* OTMacro */,
+				8113C06C752DF91CF4EE606A2B33CFB9 /* OTMacro */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		15EE20BEF0ECC7D49D86A653493845B6 /* OTMacro */ = {
-			isa = PBXGroup;
-			children = (
-				BFBD6C36F70568E4B798B32D9EAB0566 /* ReplaceMe.swift */,
-				78684999B5F9937ECA707F13AED8A3E4 /* Support Files */,
-			);
-			name = OTMacro;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		62DE5B15FB9C4A55844B569FF255F51E /* Pods-OTMacro_Tests */ = {
@@ -128,20 +118,6 @@
 			path = "Target Support Files/Pods-OTMacro_Tests";
 			sourceTree = "<group>";
 		};
-		78684999B5F9937ECA707F13AED8A3E4 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				55619015956FAD8B53C482CA530026C1 /* Info.plist */,
-				A38BD544D78D98691A5F9616C1AFC4EC /* OTMacro.modulemap */,
-				02D4B49A412C530CDE255D0B21C36EE6 /* OTMacro.xcconfig */,
-				1098ADC218E363EC8E42A5A402FD0DF9 /* OTMacro-dummy.m */,
-				57532773513EDD3A3339790D8BDB112C /* OTMacro-prefix.pch */,
-				4CBF185E0C78FDBA7D5F83029D02DCDC /* OTMacro-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/OTMacro";
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
@@ -151,6 +127,30 @@
 				AF08B5D6FC074107F3D07387E592E548 /* Products */,
 				F27655BD2A754E6BF654FAD22EE24161 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		8113C06C752DF91CF4EE606A2B33CFB9 /* OTMacro */ = {
+			isa = PBXGroup;
+			children = (
+				ABD978A38B8FC6134913C4A19815086D /* OTMacro.swift */,
+				9485FF2E505745D73C9526A4E39CD705 /* Support Files */,
+			);
+			name = OTMacro;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9485FF2E505745D73C9526A4E39CD705 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2D07732B1E69536E86E7EF2249FE16A /* Info.plist */,
+				203DDD147976E32AABF08924F6661F26 /* OTMacro.modulemap */,
+				BB1281C0FB24D1D9309F0A6F522625AF /* OTMacro.xcconfig */,
+				309DCC7CA8A39A694690EF60C7A5C11E /* OTMacro-dummy.m */,
+				4CC829C3E9785B57C34185DA9564E37D /* OTMacro-prefix.pch */,
+				9D27E5BA7CFDE384E02D8B959B95F5A3 /* OTMacro-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/OTMacro";
 			sourceTree = "<group>";
 		};
 		AF08B5D6FC074107F3D07387E592E548 /* Products */ = {
@@ -275,7 +275,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2162A40CB344938AE9DE4D1BCAA8D170 /* Build configuration list for PBXNativeTarget "OTMacro" */;
 			buildPhases = (
-				6C3E11D30E0DFA95C91B32910CDFEB1C /* Sources */,
+				B472C9AA21DED3B3669E5F564B79FE18 /* Sources */,
 				3A4C7B2832A2E003BFAACBBE75E2B8E9 /* Frameworks */,
 				5ECC1D6D11CD78E097D974A883429C99 /* Headers */,
 			);
@@ -325,12 +325,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6C3E11D30E0DFA95C91B32910CDFEB1C /* Sources */ = {
+		B472C9AA21DED3B3669E5F564B79FE18 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7DF9E400B4B05136223919C72959F76 /* OTMacro-dummy.m in Sources */,
-				EF036F83792BA7AAC9BD644545A3BA28 /* ReplaceMe.swift in Sources */,
+				8AA972B2F998DF19B7ABDD50DFDB7BB1 /* OTMacro-dummy.m in Sources */,
+				8D48271E7601FFE11A1D0CCC54754633 /* OTMacro.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,7 +390,7 @@
 		};
 		418ECD342DD936558EC157641ADC58C3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 02D4B49A412C530CDE255D0B21C36EE6 /* OTMacro.xcconfig */;
+			baseConfigurationReference = BB1281C0FB24D1D9309F0A6F522625AF /* OTMacro.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -642,7 +642,7 @@
 		};
 		DF764C4E882820CC4FBB953A8283F7AC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 02D4B49A412C530CDE255D0B21C36EE6 /* OTMacro.xcconfig */;
+			baseConfigurationReference = BB1281C0FB24D1D9309F0A6F522625AF /* OTMacro.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
