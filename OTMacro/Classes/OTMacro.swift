@@ -9,24 +9,25 @@
 import UIKit
 
 // String
-let kToken: String = "OpalTripUserToken"
-let kLanguage: String = "OpalTripLanguage"
-let kRememberPassword: String = "kRememberPassword"
-let kAccessAvailable: String = "kAccessAvailable"
+public let kToken: String = "OpalTripUserToken"
+public let kLanguage: String = "OpalTripLanguage"
+public let kRememberPassword: String = "kRememberPassword"
+public let kAccessAvailable: String = "kAccessAvailable"
+public let kCurrentLanguage: String = "kCurrentLanguage"
 
 // Height
-let kStandardHeight: CGFloat = 35.0
-let kStandardPadding: CGFloat = 15.0
-let kScreenWidth: CGFloat = UIScreen.main.bounds.width
-let kScreenHeight: CGFloat = UIScreen.main.bounds.height
+public let kStandardHeight: CGFloat = 35.0
+public let kStandardPadding: CGFloat = 15.0
+public let kScreenWidth: CGFloat = UIScreen.main.bounds.width
+public let kScreenHeight: CGFloat = UIScreen.main.bounds.height
 
 // enum
-enum OTLanguage: String {
+public enum OTLanguage: String {
     case Hans = "OTHans"
     case En   = "OTEn"
 }
 
-enum OTRegisterType: Int {
+public enum OTRegisterType: Int {
     case mail = 0
     case mobile = 1
 }
