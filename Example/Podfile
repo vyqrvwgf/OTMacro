@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'OTMacro_Example' do
+  pod 'OTMacro', :path => '../'
+
+  target 'OTMacro_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

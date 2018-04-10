@@ -1,0 +1,716 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16D993F4B0E7681C6E00AC407C982304 /* OTMacro-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CBF185E0C78FDBA7D5F83029D02DCDC /* OTMacro-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CC8876C7FDBF29D0FE354AEF348796A /* Pods-OTMacro_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0AD005A672F19F001AC461531618F65 /* Pods-OTMacro_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40D5C89560DF8B9DEDD7D394B5F3CAB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		715D7B267E67B0D8D4ABCCAC52CE15F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7AF521A9B45213A27A6E29BD97F6936A /* Pods-OTMacro_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 800F18DC50E67513BDE65DF8EBE174FE /* Pods-OTMacro_Example-dummy.m */; };
+		B7DF9E400B4B05136223919C72959F76 /* OTMacro-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1098ADC218E363EC8E42A5A402FD0DF9 /* OTMacro-dummy.m */; };
+		D0F51C2F2B9600D90093722912927124 /* Pods-OTMacro_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC213730EE99E53689C0E1CB0C0E7D67 /* Pods-OTMacro_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4591255158101E0A23121AA40B4F5FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E8D59418DCBD1D84DC72FC4AD64E53F0 /* Pods-OTMacro_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9A24DA73D7BB154D0E68D999E71BE9E /* Pods-OTMacro_Tests-dummy.m */; };
+		EF036F83792BA7AAC9BD644545A3BA28 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBD6C36F70568E4B798B32D9EAB0566 /* ReplaceMe.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7ACDBE3EF637B2DC83D12E61A06AAFD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA947B91F5951E9E3F646C75B75303A3;
+			remoteInfo = OTMacro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		007ED1592DC70DE411C0D0A99BDC222E /* Pods-OTMacro_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OTMacro_Tests.modulemap"; sourceTree = "<group>"; };
+		02D4B49A412C530CDE255D0B21C36EE6 /* OTMacro.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OTMacro.xcconfig; sourceTree = "<group>"; };
+		1098ADC218E363EC8E42A5A402FD0DF9 /* OTMacro-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OTMacro-dummy.m"; sourceTree = "<group>"; };
+		2F59A8027384AF9A630E5BDF0B0D8519 /* Pods_OTMacro_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OTMacro_Example.framework; path = "Pods-OTMacro_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32BF803B4954BE95F321F9389F0E9D21 /* Pods-OTMacro_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OTMacro_Example-resources.sh"; sourceTree = "<group>"; };
+		3E7158EE8FFC06E4E15612DC79C5FD10 /* Pods-OTMacro_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OTMacro_Tests-resources.sh"; sourceTree = "<group>"; };
+		4CBF185E0C78FDBA7D5F83029D02DCDC /* OTMacro-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTMacro-umbrella.h"; sourceTree = "<group>"; };
+		507B121BFEFE42E416E1E0AE24F1663D /* OTMacro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OTMacro.framework; path = OTMacro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55619015956FAD8B53C482CA530026C1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57532773513EDD3A3339790D8BDB112C /* OTMacro-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTMacro-prefix.pch"; sourceTree = "<group>"; };
+		65D628C523DC54FA90F1B6D5DA7B1560 /* Pods-OTMacro_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OTMacro_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		706569765B880AA8741F89B93EDB1FA8 /* Pods_OTMacro_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OTMacro_Tests.framework; path = "Pods-OTMacro_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		800F18DC50E67513BDE65DF8EBE174FE /* Pods-OTMacro_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OTMacro_Example-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9480FB6CDAE07FF56F525C34A20B5D3B /* Pods-OTMacro_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OTMacro_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9C928F22AE5CF3C6E25F4D0B7EB00C29 /* Pods-OTMacro_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OTMacro_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9F01EB949E6543B9E09545A3489F2242 /* Pods-OTMacro_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OTMacro_Example.modulemap"; sourceTree = "<group>"; };
+		A38BD544D78D98691A5F9616C1AFC4EC /* OTMacro.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OTMacro.modulemap; sourceTree = "<group>"; };
+		AC203C2FE6F48E1409220F1DDC994CFF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0AD005A672F19F001AC461531618F65 /* Pods-OTMacro_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OTMacro_Tests-umbrella.h"; sourceTree = "<group>"; };
+		BFBD6C36F70568E4B798B32D9EAB0566 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = OTMacro/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		C08BDD97F824C52C6A05B4D399AD405E /* Pods-OTMacro_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OTMacro_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C1D3E38457D956FB1EF32583676AC99A /* Pods-OTMacro_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OTMacro_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D209388ADE7062DCD9B7C3167D5B075D /* Pods-OTMacro_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OTMacro_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D58CD170437913975210689A25659E73 /* Pods-OTMacro_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OTMacro_Example-frameworks.sh"; sourceTree = "<group>"; };
+		EC213730EE99E53689C0E1CB0C0E7D67 /* Pods-OTMacro_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OTMacro_Example-umbrella.h"; sourceTree = "<group>"; };
+		ED27C5977F275BE5BDB360D2544560C4 /* Pods-OTMacro_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OTMacro_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		F1BD8C366A72BEE542A4608F8C69A822 /* Pods-OTMacro_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OTMacro_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F940EC03F975C5FD513CAC4C20619000 /* Pods-OTMacro_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OTMacro_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F9A24DA73D7BB154D0E68D999E71BE9E /* Pods-OTMacro_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OTMacro_Tests-dummy.m"; sourceTree = "<group>"; };
+		FA5C5C358FA1E462118B217098E19DC7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A4C7B2832A2E003BFAACBBE75E2B8E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4591255158101E0A23121AA40B4F5FA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43E83A643850C1C94791911EA366ECF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				715D7B267E67B0D8D4ABCCAC52CE15F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBA682CC9D8C8D56723542A31FED7A1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40D5C89560DF8B9DEDD7D394B5F3CAB9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1424B922E3EF837BACB52932CD8E498C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15EE20BEF0ECC7D49D86A653493845B6 /* OTMacro */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		15EE20BEF0ECC7D49D86A653493845B6 /* OTMacro */ = {
+			isa = PBXGroup;
+			children = (
+				BFBD6C36F70568E4B798B32D9EAB0566 /* ReplaceMe.swift */,
+				78684999B5F9937ECA707F13AED8A3E4 /* Support Files */,
+			);
+			name = OTMacro;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		62DE5B15FB9C4A55844B569FF255F51E /* Pods-OTMacro_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FA5C5C358FA1E462118B217098E19DC7 /* Info.plist */,
+				007ED1592DC70DE411C0D0A99BDC222E /* Pods-OTMacro_Tests.modulemap */,
+				9C928F22AE5CF3C6E25F4D0B7EB00C29 /* Pods-OTMacro_Tests-acknowledgements.markdown */,
+				C08BDD97F824C52C6A05B4D399AD405E /* Pods-OTMacro_Tests-acknowledgements.plist */,
+				F9A24DA73D7BB154D0E68D999E71BE9E /* Pods-OTMacro_Tests-dummy.m */,
+				ED27C5977F275BE5BDB360D2544560C4 /* Pods-OTMacro_Tests-frameworks.sh */,
+				3E7158EE8FFC06E4E15612DC79C5FD10 /* Pods-OTMacro_Tests-resources.sh */,
+				B0AD005A672F19F001AC461531618F65 /* Pods-OTMacro_Tests-umbrella.h */,
+				9480FB6CDAE07FF56F525C34A20B5D3B /* Pods-OTMacro_Tests.debug.xcconfig */,
+				F940EC03F975C5FD513CAC4C20619000 /* Pods-OTMacro_Tests.release.xcconfig */,
+			);
+			name = "Pods-OTMacro_Tests";
+			path = "Target Support Files/Pods-OTMacro_Tests";
+			sourceTree = "<group>";
+		};
+		78684999B5F9937ECA707F13AED8A3E4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				55619015956FAD8B53C482CA530026C1 /* Info.plist */,
+				A38BD544D78D98691A5F9616C1AFC4EC /* OTMacro.modulemap */,
+				02D4B49A412C530CDE255D0B21C36EE6 /* OTMacro.xcconfig */,
+				1098ADC218E363EC8E42A5A402FD0DF9 /* OTMacro-dummy.m */,
+				57532773513EDD3A3339790D8BDB112C /* OTMacro-prefix.pch */,
+				4CBF185E0C78FDBA7D5F83029D02DCDC /* OTMacro-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/OTMacro";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				1424B922E3EF837BACB52932CD8E498C /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				AF08B5D6FC074107F3D07387E592E548 /* Products */,
+				F27655BD2A754E6BF654FAD22EE24161 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		AF08B5D6FC074107F3D07387E592E548 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				507B121BFEFE42E416E1E0AE24F1663D /* OTMacro.framework */,
+				2F59A8027384AF9A630E5BDF0B0D8519 /* Pods_OTMacro_Example.framework */,
+				706569765B880AA8741F89B93EDB1FA8 /* Pods_OTMacro_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DF36E35893F44C3020568313E769E1C6 /* Pods-OTMacro_Example */ = {
+			isa = PBXGroup;
+			children = (
+				AC203C2FE6F48E1409220F1DDC994CFF /* Info.plist */,
+				9F01EB949E6543B9E09545A3489F2242 /* Pods-OTMacro_Example.modulemap */,
+				D209388ADE7062DCD9B7C3167D5B075D /* Pods-OTMacro_Example-acknowledgements.markdown */,
+				C1D3E38457D956FB1EF32583676AC99A /* Pods-OTMacro_Example-acknowledgements.plist */,
+				800F18DC50E67513BDE65DF8EBE174FE /* Pods-OTMacro_Example-dummy.m */,
+				D58CD170437913975210689A25659E73 /* Pods-OTMacro_Example-frameworks.sh */,
+				32BF803B4954BE95F321F9389F0E9D21 /* Pods-OTMacro_Example-resources.sh */,
+				EC213730EE99E53689C0E1CB0C0E7D67 /* Pods-OTMacro_Example-umbrella.h */,
+				65D628C523DC54FA90F1B6D5DA7B1560 /* Pods-OTMacro_Example.debug.xcconfig */,
+				F1BD8C366A72BEE542A4608F8C69A822 /* Pods-OTMacro_Example.release.xcconfig */,
+			);
+			name = "Pods-OTMacro_Example";
+			path = "Target Support Files/Pods-OTMacro_Example";
+			sourceTree = "<group>";
+		};
+		F27655BD2A754E6BF654FAD22EE24161 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF36E35893F44C3020568313E769E1C6 /* Pods-OTMacro_Example */,
+				62DE5B15FB9C4A55844B569FF255F51E /* Pods-OTMacro_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		391F1E1BD8003807B0361C8685E26AB0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CC8876C7FDBF29D0FE354AEF348796A /* Pods-OTMacro_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ECC1D6D11CD78E097D974A883429C99 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16D993F4B0E7681C6E00AC407C982304 /* OTMacro-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99A41AE34FB075CAC942B848FC7B0375 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F51C2F2B9600D90093722912927124 /* Pods-OTMacro_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2884720F14635EE2B2981FFBE789969B /* Pods-OTMacro_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C733ACC4215970C552C0E2724450198 /* Build configuration list for PBXNativeTarget "Pods-OTMacro_Example" */;
+			buildPhases = (
+				17814E4EB0F5A02DADEB774724D3BC7B /* Sources */,
+				EBA682CC9D8C8D56723542A31FED7A1E /* Frameworks */,
+				99A41AE34FB075CAC942B848FC7B0375 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C401E2D08AF165B8757E8CF548FED3B4 /* PBXTargetDependency */,
+			);
+			name = "Pods-OTMacro_Example";
+			productName = "Pods-OTMacro_Example";
+			productReference = 2F59A8027384AF9A630E5BDF0B0D8519 /* Pods_OTMacro_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		81A280B5809A6513946769DB2DCD0B9D /* Pods-OTMacro_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D16B25D10CEFDE59DBAA2119F13186FF /* Build configuration list for PBXNativeTarget "Pods-OTMacro_Tests" */;
+			buildPhases = (
+				F334D5E9CCEB50B9417BB992FC829D3E /* Sources */,
+				43E83A643850C1C94791911EA366ECF5 /* Frameworks */,
+				391F1E1BD8003807B0361C8685E26AB0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-OTMacro_Tests";
+			productName = "Pods-OTMacro_Tests";
+			productReference = 706569765B880AA8741F89B93EDB1FA8 /* Pods_OTMacro_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AA947B91F5951E9E3F646C75B75303A3 /* OTMacro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2162A40CB344938AE9DE4D1BCAA8D170 /* Build configuration list for PBXNativeTarget "OTMacro" */;
+			buildPhases = (
+				6C3E11D30E0DFA95C91B32910CDFEB1C /* Sources */,
+				3A4C7B2832A2E003BFAACBBE75E2B8E9 /* Frameworks */,
+				5ECC1D6D11CD78E097D974A883429C99 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OTMacro;
+			productName = OTMacro;
+			productReference = 507B121BFEFE42E416E1E0AE24F1663D /* OTMacro.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = AF08B5D6FC074107F3D07387E592E548 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA947B91F5951E9E3F646C75B75303A3 /* OTMacro */,
+				2884720F14635EE2B2981FFBE789969B /* Pods-OTMacro_Example */,
+				81A280B5809A6513946769DB2DCD0B9D /* Pods-OTMacro_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17814E4EB0F5A02DADEB774724D3BC7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AF521A9B45213A27A6E29BD97F6936A /* Pods-OTMacro_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C3E11D30E0DFA95C91B32910CDFEB1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7DF9E400B4B05136223919C72959F76 /* OTMacro-dummy.m in Sources */,
+				EF036F83792BA7AAC9BD644545A3BA28 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F334D5E9CCEB50B9417BB992FC829D3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8D59418DCBD1D84DC72FC4AD64E53F0 /* Pods-OTMacro_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C401E2D08AF165B8757E8CF548FED3B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OTMacro;
+			target = AA947B91F5951E9E3F646C75B75303A3 /* OTMacro */;
+			targetProxy = 7ACDBE3EF637B2DC83D12E61A06AAFD2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		074D288F79FA18D5BC3E0A83D8984A9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1BD8C366A72BEE542A4608F8C69A822 /* Pods-OTMacro_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OTMacro_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OTMacro_Example/Pods-OTMacro_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_OTMacro_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		418ECD342DD936558EC157641ADC58C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02D4B49A412C530CDE255D0B21C36EE6 /* OTMacro.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OTMacro/OTMacro-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OTMacro/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OTMacro/OTMacro.modulemap";
+				PRODUCT_NAME = OTMacro;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		473A75D686D33D5EB9F4CCD6CCE9FC19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9480FB6CDAE07FF56F525C34A20B5D3B /* Pods-OTMacro_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OTMacro_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OTMacro_Tests/Pods-OTMacro_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_OTMacro_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		55D9225342F38780D86B15B76A371E99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F940EC03F975C5FD513CAC4C20619000 /* Pods-OTMacro_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OTMacro_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OTMacro_Tests/Pods-OTMacro_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_OTMacro_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		919B22F1E0DA85915390B8C8F74F3CBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65D628C523DC54FA90F1B6D5DA7B1560 /* Pods-OTMacro_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OTMacro_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OTMacro_Example/Pods-OTMacro_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_OTMacro_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DF764C4E882820CC4FBB953A8283F7AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02D4B49A412C530CDE255D0B21C36EE6 /* OTMacro.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OTMacro/OTMacro-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OTMacro/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OTMacro/OTMacro.modulemap";
+				PRODUCT_NAME = OTMacro;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2162A40CB344938AE9DE4D1BCAA8D170 /* Build configuration list for PBXNativeTarget "OTMacro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF764C4E882820CC4FBB953A8283F7AC /* Debug */,
+				418ECD342DD936558EC157641ADC58C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */,
+				827269710C98D60C14D46BC6AF9BF728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C733ACC4215970C552C0E2724450198 /* Build configuration list for PBXNativeTarget "Pods-OTMacro_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				919B22F1E0DA85915390B8C8F74F3CBB /* Debug */,
+				074D288F79FA18D5BC3E0A83D8984A9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D16B25D10CEFDE59DBAA2119F13186FF /* Build configuration list for PBXNativeTarget "Pods-OTMacro_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				473A75D686D33D5EB9F4CCD6CCE9FC19 /* Debug */,
+				55D9225342F38780D86B15B76A371E99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
